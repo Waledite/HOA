@@ -1,0 +1,67 @@
+>Resident
+>>New Home Owner
+>>> Name 
+>>> Address
+>>> Username
+>>> Password
+>>> Email
+
+// If address is already taken prompt User to Verify/ Confirm
+// This is the address the live at.
+
+//Prompt: This Address has been previously registred are you now
+// the current resident?
+//Prompt: Yes or no*
+
+// >> if yes is selected: 
+//Prompt: By registering with us you agree that you have looked at the
+// HOA terms and conditions as listed by the HOA rule book and agree.
+// Prompt: yes or no
+// >> if no is selected close tab
+// >> if yes is selected proceed to register data in database.
+
+// Prompt: Please wait as you are verified.
+// Prompt: This may take one to two business days.
+// Prompt: Thank you for doing business with us.
+// Prompt: Please close this tab.
+
+//User will then have to wait for a member to verify them
+//They will recieve an email once they have been verified
+//The address in the database will be registered with their Name
+//For services be assigned easier
+
+// *>> if no is selected
+// Prompt: Please ask the current resident/ Owner for credentials
+
+
+>>Returning Home Owner
+>>>Username
+>>>Password
+
+
+>Member
+//Prompt: (Select your position)dropdown
+//all positions are admin of varying access
+
+>>President Credentials
+//all access
+
+>>Secretary
+//all access
+//acting vice president
+
+>>Treasury 
+//Oversee member fees
+//Oversee Neighborhood Cleanup fees
+//Verifying Handymen legitimacy
+
+>> Member Credentials
+//Verifying residents
+//updating bulletin
+//Oversee issues submitted from "Speak to HOA"
+
+
+
+>Profile displays
+>>Username 
+>> Address
